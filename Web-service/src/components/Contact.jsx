@@ -14,7 +14,7 @@ function Contact({ whatsappNumber, phoneNumber, address, mapEmbedUrl, socials })
           Message on WhatsApp
         </a>
         <p className={styles.phone}>Call us: {phoneNumber}</p>
-        <p className={styles.address}>📍 {address}</p>
+        <p className={styles.address}>Address {address}</p>
 
         <div className={styles.socials}>
           {socials?.instagram && (
