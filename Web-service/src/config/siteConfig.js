@@ -1,6 +1,6 @@
 const siteConfig = {
      // Core identity
-  businessName: "Cinnamona Bakery",
+  businessName: "Moon Bakery",
   tagline: "Freshly baked, every single morning.",
   aboutText: "We've been serving Kigali's best bread and pastries since 2019. Every item is baked fresh daily using local ingredients.",
 
