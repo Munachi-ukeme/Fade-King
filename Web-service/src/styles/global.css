@@ -1,0 +1,51 @@
+:root {
+  --bg: #ffffff;
+  --text: #222222;
+  --text-muted: #555555;
+  --card-bg: #f9f9f9;
+  --accent: #25D366;
+  --header-bg: #ffffff;
+  --footer-bg: #1a1a1a;
+  --footer-text: #cccccc;
+  --border: #eeeeee;
+}
+
+[data-theme="dark"] {
+  --bg: #1c1e21;
+  --text: #f0f0f0;
+  --text-muted: #b5b5b5;
+  --card-bg: #26282b;
+  --accent: #2fe07a;
+  --header-bg: #1c1e21;
+  --footer-bg: #141517;
+  --footer-text: #b5b5b5;
+  --border: #33353a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+  transition: background 0.3s, color 0.3s;
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+}
+
+section {
+  padding: 2.5rem 1.25rem;
+}
+
+@media (min-width: 768px) {
+  section {
+    padding: 4rem 3rem;
+  }
+}
