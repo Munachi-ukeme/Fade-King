@@ -27,6 +27,7 @@ function App() {
       <Contact
         whatsappNumber={siteConfig.whatsappNumber}
         phoneNumber={siteConfig.phoneNumber}
+        address={siteConfig.address}
         mapEmbedUrl={siteConfig.mapEmbedUrl}
         socials={siteConfig.socials}
       />

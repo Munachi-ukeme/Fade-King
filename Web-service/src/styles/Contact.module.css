@@ -38,6 +38,23 @@
   border-radius: 10px;
 }
 
+.address {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.socials p {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin: 0.25rem 0;
+}
+
+.socials a {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
 .socials {
   display: flex;
   gap: 1rem;

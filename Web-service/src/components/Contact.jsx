@@ -1,6 +1,6 @@
 import styles from "../styles/Contact.module.css";
 
-function Contact({ whatsappNumber, phoneNumber, mapEmbedUrl, socials }) {
+function Contact({ whatsappNumber, phoneNumber, address, mapEmbedUrl, socials }) {
   return (
     <section className={styles.contact}>
       <h2>Get In Touch</h2>
@@ -14,16 +14,32 @@ function Contact({ whatsappNumber, phoneNumber, mapEmbedUrl, socials }) {
           Message on WhatsApp
         </a>
         <p className={styles.phone}>Call us: {phoneNumber}</p>
+        <p className={styles.address}>📍 {address}</p>
 
         <div className={styles.socials}>
           {socials?.instagram && (
-            <a href={socials.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
+            <p>
+              Follow us on{" "}
+              <a href={socials.instagram} target="_blank" rel="noopener noreferrer">
+                Instagram
+              </a>
+            </p>
           )}
           {socials?.facebook && (
-            <a href={socials.facebook} target="_blank" rel="noopener noreferrer">Facebook</a>
+            <p>
+              Find us on{" "}
+              <a href={socials.facebook} target="_blank" rel="noopener noreferrer">
+                Facebook
+              </a>
+            </p>
           )}
           {socials?.tiktok && (
-            <a href={socials.tiktok} target="_blank" rel="noopener noreferrer">TikTok</a>
+            <p>
+              Watch us on{" "}
+              <a href={socials.tiktok} target="_blank" rel="noopener noreferrer">
+                TikTok
+              </a>
+            </p>
           )}
         </div>
       </div>

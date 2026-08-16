@@ -46,6 +46,7 @@ const siteConfig = {
   facebook: "https://facebook.com/kigalifreshbakery",
   tiktok: "" // leave empty string if they don't have one
 },
+address: "KG 195 St, Kigali, Rwanda",
   mapEmbedUrl: "https://www.google.com/maps/embed?pb=YOUR_EMBED_CODE_HERE",
 };
 
