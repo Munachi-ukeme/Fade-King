@@ -67,5 +67,10 @@
 @media (min-width: 768px) {
   .title { font-size: 3rem; }
   .subTagline { font-size: 1.3rem; max-width: 550px; }
-  .ctaGroup { flex-direction: row; max-width: none; }
+  .ctaGroup {
+    flex-direction: row;
+    width: auto;
+    max-width: none;
+    justify-content: center;
+  }
 }
