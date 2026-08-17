@@ -3,7 +3,7 @@ const siteConfig = {
   tagline: "Premium Cuts & Grooming in Leeds",
   subTagline: "Sharp fades, clean beard work, and a shop that gets it right every time.",
 
-  logoImage: "/logo.png",
+  logoImage: "/logo.jpg",
   heroImage: "/hero.jpg",
 
   aboutText: "We're a Leeds-based barbershop dedicated to precision cuts and modern grooming. Walk-ins welcome, appointments preferred.",
