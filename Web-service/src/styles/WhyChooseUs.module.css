@@ -1,9 +1,9 @@
-.services {
+.why {
   background: var(--card-bg);
+  text-align: center;
 }
 
-.services h2 {
-  text-align: center;
+.why h2 {
   font-size: 1.4rem;
   margin-bottom: 1.5rem;
 }
@@ -18,32 +18,24 @@
   background: var(--bg);
   padding: 1.25rem;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
 
 .card h3 {
-  font-size: 1.05rem;
+  font-size: 1rem;
   margin-bottom: 0.4rem;
 }
 
 .card p {
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: var(--text-muted);
-  margin-bottom: 0.5rem;
-}
-
-.price {
-  font-weight: 700;
-  color: var(--accent);
-  font-size: 0.9rem;
 }
 
 @media (min-width: 768px) {
-  .services h2 { font-size: 2rem; }
+  .why h2 { font-size: 2rem; }
   .grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
   }
 }

@@ -5,14 +5,29 @@
   padding: 1.5rem 1rem;
   font-size: 0.8rem;
 }
-.signature {
-  margin-top: 0.4rem;
+
+.name {
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
 }
 
-.signature a {
-  color: #25D366;
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.links a {
+  color: var(--footer-text);
   text-decoration: none;
-  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.contactLine, .hoursLine {
+  margin: 0.2rem 0;
 }
 
 .support {
@@ -21,7 +36,21 @@
 }
 
 .support a {
-  color: #25D366;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.copyright {
+  margin-top: 0.75rem;
+}
+
+.signature {
+  margin-top: 0.4rem;
+}
+
+.signature a {
+  color: var(--accent);
   text-decoration: none;
   font-weight: 600;
 }

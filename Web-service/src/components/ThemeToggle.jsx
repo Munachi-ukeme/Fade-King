@@ -13,11 +13,7 @@ function ThemeToggle() {
   };
 
   return (
-    <button
-      onClick={toggleTheme}
-      className={styles.themeToggle}
-      aria-label="Toggle dark mode"
-    >
+    <button onClick={toggleTheme} className={styles.themeToggle} aria-label="Toggle dark mode">
       {theme === "light" ? "🌙" : "☀️"}
     </button>
   );

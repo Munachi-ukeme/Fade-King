@@ -1,8 +1,4 @@
-.services {
-  background: var(--card-bg);
-}
-
-.services h2 {
+.reviews h2 {
   text-align: center;
   font-size: 1.4rem;
   margin-bottom: 1.5rem;
@@ -15,31 +11,30 @@
 }
 
 .card {
-  background: var(--bg);
+  background: var(--card-bg);
   padding: 1.25rem;
   border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
 
-.card h3 {
-  font-size: 1.05rem;
-  margin-bottom: 0.4rem;
-}
-
-.card p {
+.stars {
   font-size: 0.9rem;
-  color: var(--text-muted);
   margin-bottom: 0.5rem;
 }
 
-.price {
-  font-weight: 700;
-  color: var(--accent);
+.text {
   font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+.name {
+  font-size: 0.85rem;
+  font-weight: 600;
 }
 
 @media (min-width: 768px) {
-  .services h2 { font-size: 2rem; }
+  .reviews h2 { font-size: 2rem; }
   .grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;

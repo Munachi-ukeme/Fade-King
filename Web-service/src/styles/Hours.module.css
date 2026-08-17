@@ -1,22 +1,17 @@
 .hours {
   max-width: 500px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .hours h2 {
-  text-align: center;
   font-size: 1.4rem;
   margin-bottom: 1.25rem;
 }
 
 .list {
   list-style: none;
-}
-
-
-
-.day {
-  font-weight: 600;
+  margin-bottom: 1.5rem;
 }
 
 .row {
@@ -27,14 +22,26 @@
   font-size: 0.9rem;
 }
 
+.day {
+  font-weight: 600;
+}
+
 .time {
   color: var(--text-muted);
 }
+
+.bookBtn {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  padding: 0.7rem 1.4rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
 @media (min-width: 768px) {
-  .hours h2 {
-    font-size: 2rem;
-  }
-  .row {
-    font-size: 1rem;
-  }
+  .hours h2 { font-size: 2rem; }
+  .row { font-size: 1rem; }
 }

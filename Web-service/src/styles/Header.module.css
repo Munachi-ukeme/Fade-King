@@ -9,6 +9,8 @@
   position: sticky;
   top: 0;
   z-index: 100;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 }
 
 .logoWrap {
@@ -18,8 +20,8 @@
 }
 
 .logo {
-  width: 50px;
-  height: 50px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -29,15 +31,16 @@
   font-size: 1rem;
 }
 
-.whatsappBtn {
-  background: #25D366;
-  color: #fff;
-  padding: 0.5rem 0.9rem;
-  border-radius: 20px;
-  font-size: 0.85rem;
+.nav {
+  display: none;
+  gap: 1.25rem;
+}
+
+.nav a {
+  color: var(--text);
   text-decoration: none;
-  font-weight: 600;
-  white-space: nowrap;
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 
 .actions {
@@ -55,11 +58,25 @@
   line-height: 1;
 }
 
+.bookBtn {
+  background: var(--accent);
+  color: #fff;
+  padding: 0.5rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
 @media (min-width: 768px) {
   .header {
     padding: 1rem 3rem;
   }
   .name {
     font-size: 1.2rem;
+  }
+  .nav {
+    display: flex;
   }
 }

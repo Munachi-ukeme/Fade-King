@@ -1,6 +1,6 @@
 import styles from "../styles/Hours.module.css";
 
-function Hours({ hours }) {
+function Hours({ hours, whatsappNumber }) {
   return (
     <section className={styles.hours}>
       <h2>Opening Hours</h2>
@@ -12,6 +12,14 @@ function Hours({ hours }) {
           </li>
         ))}
       </ul>
+      <a
+        href={`https://wa.me/${whatsappNumber}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={styles.bookBtn}
+      >
+        Book an Appointment
+      </a>
     </section>
   );
 }

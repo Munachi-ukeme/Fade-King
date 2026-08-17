@@ -12,13 +12,25 @@
 .about p {
   font-size: 0.95rem;
   color: var(--text-muted);
+  margin-bottom: 1.25rem;
+}
+
+.trustRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.trustItem {
+  background: var(--card-bg);
+  padding: 0.4rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 
 @media (min-width: 768px) {
-  .about h2 {
-    font-size: 2rem;
-  }
-  .about p {
-    font-size: 1.1rem;
-  }
+  .about h2 { font-size: 2rem; }
+  .about p { font-size: 1.1rem; }
 }
