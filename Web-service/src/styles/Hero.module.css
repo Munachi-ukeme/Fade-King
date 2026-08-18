@@ -64,6 +64,14 @@
   font-size: 0.95rem;
 }
 
+.viewServicesLink {
+  margin-top: 1rem;
+  color: #eee;
+  font-size: 0.85rem;
+  text-decoration: underline;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+}
+
 @media (min-width: 768px) {
   .title { font-size: 3rem; }
   .subTagline { font-size: 1.3rem; max-width: 550px; }

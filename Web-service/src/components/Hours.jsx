@@ -1,6 +1,6 @@
 import styles from "../styles/Hours.module.css";
 
-function Hours({ hours, whatsappNumber }) {
+function Hours({ hours, whatsappNumber, email }) {
   return (
     <section className={styles.hours}>
       <h2>Opening Hours</h2>
@@ -12,14 +12,22 @@ function Hours({ hours, whatsappNumber }) {
           </li>
         ))}
       </ul>
-      <a
-        href={`https://wa.me/${whatsappNumber}`}
-        target="_blank"
-        rel="noopener noreferrer"
-        className={styles.bookBtn}
-      >
-        Book an Appointment
-      </a>
+      <div className={styles.bookGroup}>
+        <a
+          href={`https://wa.me/${whatsappNumber}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.bookBtn}
+        >
+          Book via WhatsApp
+        </a>
+        <a
+          href={`mailto:${email}?subject=Booking Request&body=Hi, I'd like to book an appointment for...`}
+          className={styles.bookBtnOutline}
+        >
+          Book via Email
+        </a>
+      </div>
     </section>
   );
 }

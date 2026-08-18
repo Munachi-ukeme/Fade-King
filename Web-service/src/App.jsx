@@ -18,19 +18,25 @@ function App() {
         logoImage={siteConfig.logoImage}
         whatsappNumber={siteConfig.whatsappNumber}
       />
-      <Hero
-        businessName={siteConfig.businessName}
-        tagline={siteConfig.tagline}
-        subTagline={siteConfig.subTagline}
-        heroImage={siteConfig.heroImage}
-        whatsappNumber={siteConfig.whatsappNumber}
-      />
+     <Hero
+  businessName={siteConfig.businessName}
+  tagline={siteConfig.tagline}
+  subTagline={siteConfig.subTagline}
+  heroImage={siteConfig.heroImage}
+  whatsappNumber={siteConfig.whatsappNumber}
+  email={siteConfig.email}
+/>
+
       <About aboutText={siteConfig.aboutText} trustPoints={siteConfig.trustPoints} />
       <Services services={siteConfig.services} />
       <Gallery gallery={siteConfig.gallery} />
       <WhyChooseUs whyChooseUs={siteConfig.whyChooseUs} />
       <Reviews reviews={siteConfig.reviews} />
-      <Hours hours={siteConfig.hours} whatsappNumber={siteConfig.whatsappNumber} />
+      <Hours
+  hours={siteConfig.hours}
+  whatsappNumber={siteConfig.whatsappNumber}
+  email={siteConfig.email}
+/>
       <Contact
         whatsappNumber={siteConfig.whatsappNumber}
         phoneNumber={siteConfig.phoneNumber}

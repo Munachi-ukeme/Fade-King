@@ -1,6 +1,6 @@
 import styles from "../styles/Hero.module.css";
 
-function Hero({ businessName, tagline, subTagline, heroImage, whatsappNumber }) {
+function Hero({ businessName, tagline, subTagline, heroImage, whatsappNumber, email }) {
   return (
     <section className={styles.hero} style={{ backgroundImage: `url(${heroImage})` }} id="home">
       <div className={styles.overlay}>
@@ -13,12 +13,18 @@ function Hero({ businessName, tagline, subTagline, heroImage, whatsappNumber }) 
             rel="noopener noreferrer"
             className={styles.ctaBtn}
           >
-            Book an Appointment
+            Book via WhatsApp
           </a>
-          <a href="#services" className={styles.ctaBtnOutline}>
-            View Services
+          <a
+            href={`mailto:${email}?subject=Booking Request&body=Hi, I'd like to book an appointment for...`}
+            className={styles.ctaBtnOutline}
+          >
+            Book via Email
           </a>
         </div>
+        <a href="#services" className={styles.viewServicesLink}>
+          View Services
+        </a>
       </div>
     </section>
   );
