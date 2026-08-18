@@ -1,5 +1,5 @@
 const siteConfig = {
-  businessName: "Fade King Barbershop",
+  businessName: "Fade King",
   tagline: "Premium Cuts & Grooming in Leeds",
   subTagline: "Sharp fades, clean beard work, and a shop that gets it right every time.",
 
