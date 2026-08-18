@@ -18,13 +18,8 @@ function Header({ businessName, logoImage, whatsappNumber }) {
 
       <div className={styles.actions}>
         <ThemeToggle />
-        <a
-          href={`https://wa.me/${whatsappNumber}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.bookBtn}
-        >
-          Book Now
+        <a href="#services" className={styles.bookBtn}>
+          Services
         </a>
       </div>
     </header>

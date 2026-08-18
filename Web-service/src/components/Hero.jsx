@@ -22,9 +22,6 @@ function Hero({ businessName, tagline, subTagline, heroImage, whatsappNumber, em
             Book via Email
           </a>
         </div>
-        <a href="#services" className={styles.viewServicesLink}>
-          View Services
-        </a>
       </div>
     </section>
   );
